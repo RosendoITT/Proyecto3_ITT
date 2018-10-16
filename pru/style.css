@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: red; /* Color de la letra*/
+	background: 1.jpg; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: #303952; /* Color de la letra del menu*/
+	}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #e66767; /* Color al pasar el cursor*/
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999; /* Color de las letras del logo*/
+	}
+	
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background:#cf6a87; /*Color de la transicion del menu*/
+					height: 90px;
+				}
+				#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+
+		padding: 32px;
+		background-color: #B0E0E6; /* Color del cuerpo de la pagg*/
+	}
+
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+	#main-header {
+	background: #3dc1d3; /*Color de la cabecera principal*/
+	color: white;
+	height: 90px;
+
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+body{
+
+	background-size: cover;
+
+}
+
+
+
+nav.navbar {
+    background-color: #25236d;
+}
+.container-fluid {
+  background-color: white;
+  position: absolute;
+  color: white;
+  top: 55%; /* Bajar el container */
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 950px; /* Ancho del container*/
+  height: 520px;
+  padding: 40px 40px; /* Centrado del contenido del container n*/
+  box-sizing: border-box;
+  border-width: 200px;
+  background: rgba(0,0,0,.8);
+}
+h2{
+	margin: 0;
+	padding: 0 0 30px; /*Distancia del titulo y la caja*/
+  }
+.tamaño{
+	height: 50px;
+	width: 500px;
+}
+.form-control{
+height: 300px;
+	width: 850px;
+
+}
+

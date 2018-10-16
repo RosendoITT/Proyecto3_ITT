@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Cabecera fija</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="1.jpg">
+	<form action="conex.php" method="POST">
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Centro Odontológico  </span>
+			<span class="site-desc">C.D Judith Sánchez Aguilar</span>
+		</a> 
+
+		<nav>
+			<ul>
+				<li><a href="registro.php">Agregar nueva cita</a></li>
+				<li><a href="mostrart.php">Ver citas actuales</a></li>
+				<li><a href="gg">Modificar una cita </a></li>
+
+				<li><a href="imprimir.php">Imprimir número de citas </a></li>
+				<li><a href="notas.php">Notas </a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+
+
+	<div class="container-fluid">
+<h2 class="form-heading">Inserte nuevas notas</h2>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+
+   <p>NOTAS</p>
+   </div>
+    <form id="Nota" method="POST">
+        <div class="form-group">
+
+
+            
+            <textarea class="form-control" name="notass" rows="10"></textarea>
+        </div>
+         
+        
+       <nav class="tamaño"> <a href="login.php"><button type="submit" class="btn btn-primary">Guardar notas</button></a>
+       </nav>
+
+    </form>
+    </div>
+</div>
+</div>
+
+	
+	 
+	
+</body>
+</html>
